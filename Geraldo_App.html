@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Geraldo_App</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Geraldo App;
+		--web-view-id: Geraldo_App;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Geraldo_App;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	#Geraldo_App {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(43,52,67,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		--web-view-name: Geraldo App;
+		--web-view-id: Geraldo_App;
+		--web-enable-deep-linking: true;
+	}
+	#Connect_to_Geraldo {
+		position: absolute;
+		left: 33px;
+		top: 28px;
+		overflow: hidden;
+		width: 906px;
+		height: 118px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(76,114,242,1);
+	}
+	#Group_3 {
+		position: absolute;
+		width: 1116px;
+		height: 473px;
+		left: 33px;
+		top: 492px;
+		overflow: visible;
+	}
+	#Group_2 {
+		position: absolute;
+		width: 400px;
+		height: 100px;
+		left: 0px;
+		top: 373px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.161));
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 420px;
+		height: 120px;
+		left: 0px;
+		top: 0px;
+	}
+	#open_snap {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 78px;
+		top: 9px;
+		overflow: hidden;
+		width: 245px;
+		height: 68px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(76,114,242,1);
+	}
+	#Group_1 {
+		position: absolute;
+		width: 1116px;
+		height: 317px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_3 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 94px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_4 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 94px;
+		left: 0px;
+		top: 109px;
+	}
+	#Rectangle_5 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 94px;
+		left: 0px;
+		top: 218px;
+	}
+	#Bluetooth_service {
+		position: absolute;
+		left: 450px;
+		top: 0px;
+		overflow: hidden;
+		width: 667px;
+		height: 104px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+	}
+	#Device_name {
+		position: absolute;
+		left: 450px;
+		top: 109px;
+		overflow: hidden;
+		width: 667px;
+		height: 104px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+	}
+	#Device_name_prefix {
+		position: absolute;
+		left: 450px;
+		top: 213px;
+		overflow: hidden;
+		width: 667px;
+		height: 104px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_4 {
+		position: absolute;
+		width: 967px;
+		height: 190px;
+		left: 33px;
+		top: 224px;
+		overflow: visible;
+	}
+	#All_devices {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: hidden;
+		width: 319px;
+		height: 104px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_2 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 76px;
+		height: 74px;
+		left: 318px;
+		top: 13px;
+	}
+	#Rectangle_6 {
+		filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.161));
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 270px;
+		height: 120px;
+		left: 717px;
+		top: 68px;
+	}
+	#find {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 799px;
+		top: 86px;
+		overflow: hidden;
+		width: 87px;
+		height: 68px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(76,114,242,1);
+	}
+	#Find_bluetooth_device_info {
+		position: absolute;
+		left: 0px;
+		top: 86px;
+		overflow: hidden;
+		width: 792px;
+		height: 104px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+	}
+	#connected {
+		position: absolute;
+		left: 1354px;
+		top: 298px;
+		overflow: hidden;
+		width: 359px;
+		height: 116px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(88,250,138,1);
+	}
+	.white_teddy_logo {
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		height: 77px;
+		left: 1533px;
+		top: 992px;
+	}
+</style>
+</head>
+<body>
+<div id="Geraldo_App">
+	<div id="Connect_to_Geraldo">
+		<span>Connect to Geraldo</span>
+	</div>
+	<div id="Group_3">
+		<div id="Group_2">
+			<svg class="Rectangle_1">
+				<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_1" rx="50" ry="50" x="0" y="0" width="400" height="100">
+				</rect>
+			</svg>
+			<div id="open_snap">
+				<span>open snap</span>
+			</div>
+		</div>
+		<div id="Group_1">
+			<svg class="Rectangle_3">
+				<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_3" rx="10" ry="10" x="0" y="0" width="425" height="76">
+				</rect>
+			</svg>
+			<svg class="Rectangle_4">
+				<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_4" rx="10" ry="10" x="0" y="0" width="425" height="76">
+				</rect>
+			</svg>
+			<svg class="Rectangle_5">
+				<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_5" rx="10" ry="10" x="0" y="0" width="425" height="76">
+				</rect>
+			</svg>
+			<div id="Bluetooth_service">
+				<span>Bluetooth service</span>
+			</div>
+			<div id="Device_name">
+				<span>Device name</span>
+			</div>
+			<div id="Device_name_prefix">
+				<span>Device name prefix</span>
+			</div>
+		</div>
+	</div>
+	<div id="Group_4">
+		<div id="All_devices">
+			<span>All devices</span>
+		</div>
+		<svg class="Rectangle_2">
+			<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_2" rx="10" ry="10" x="0" y="0" width="57" height="55">
+			</rect>
+		</svg>
+		<svg class="Rectangle_6">
+			<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_6" rx="50" ry="50" x="0" y="0" width="250" height="100">
+			</rect>
+		</svg>
+		<div id="find">
+			<span>find</span>
+		</div>
+		<div id="Find_bluetooth_device_info">
+			<span>Find bluetooth device info</span>
+		</div>
+	</div>
+	<div id="connected">
+		<span>connected</span>
+	</div>
+	
+</div>
+</body>
+</html>
